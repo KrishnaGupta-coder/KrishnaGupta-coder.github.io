@@ -214,7 +214,7 @@
   function getDefaultForProvider(provider) {
     switch (provider) {
       case 'ollama':
-        return { endpoint: 'http://localhost:11434/api/chat', model: 'qwen2.5:7b' };
+        return { endpoint: 'http://localhost:11434/api/chat', model: 'qwen2.5:3b' };
       case 'gemini':
         return { endpoint: 'https://generativelanguage.googleapis.com/v1beta/models', model: 'gemini-2.5-flash' };
       case 'groq':
@@ -376,3 +376,4 @@
   loadConfig();
   fetchDigestFeed();
 })();
+
