@@ -33,8 +33,8 @@
       title: 'DocuVector AI',
       emoji: '🧭',
       category: 'llm',
-      desc: 'Sublinear TF-IDF embedding engine & 2D polar cosine retrieval radar for local conceptual search.',
-      tags: ['Vector Search', 'Cosine Sim', '2D Radar'],
+      desc: 'In-browser PDF/TXT RAG engine supporting instant TF-IDF & real 384D Transformers.js neural embeddings + 2D radar.',
+      tags: ['Neural 384D', 'Local RAG', 'PDF.js'],
       liveUrl: 'https://krishnagupta-coder.github.io/DocuVector-AI/',
       repoUrl: 'https://github.com/KrishnaGupta-coder/DocuVector-AI'
     },
@@ -69,12 +69,42 @@
       repoUrl: 'https://github.com/KrishnaGupta-coder/DiagramCraft-AI'
     },
     {
+      day: 'DAY 7',
+      title: 'DataScrub & SQLBox AI',
+      emoji: '🧹',
+      category: 'dev',
+      desc: 'In-browser CSV/JSON auto-cleaner, deduplicator, column profiler & interactive AlaSQL query sandbox.',
+      tags: ['SQL Sandbox', 'CSV Cleaner', 'Profiler'],
+      liveUrl: 'https://krishnagupta-coder.github.io/DataScrub-AI/',
+      repoUrl: 'https://github.com/KrishnaGupta-coder/DataScrub-AI'
+    },
+    {
+      day: 'DAY 8',
+      title: 'StudyForge & ClipOCR AI',
+      emoji: '🎓',
+      category: 'career',
+      desc: 'Ctrl+V screenshot OCR (Tesseract.js), lecture summarizer & spaced-repetition Anki CSV flashcard builder.',
+      tags: ['Tesseract OCR', 'Anki CSV', 'Study'],
+      liveUrl: 'https://krishnagupta-coder.github.io/StudyForge-AI/',
+      repoUrl: 'https://github.com/KrishnaGupta-coder/StudyForge-AI'
+    },
+    {
+      day: 'DAY 9',
+      title: 'DevVault & RegexCron AI',
+      emoji: '🔐',
+      category: 'dev',
+      desc: '100% offline JWT expiry inspector, live Regex/Cron tester, JSON diff & Web Crypto SHA-256/UUID tools.',
+      tags: ['Offline JWT', 'Regex/Cron', 'Web Crypto'],
+      liveUrl: 'https://krishnagupta-coder.github.io/DevVault-AI/',
+      repoUrl: 'https://github.com/KrishnaGupta-coder/DevVault-AI'
+    },
+    {
       day: 'AUTOMATION',
       title: 'AutoPilot Kit (Windows)',
       emoji: '🤖',
       category: 'automation',
-      desc: 'Local Windows folder auto-organizer, system-wide AI clipboard hotkey & 1-command micro-app scaffolder.',
-      tags: ['Python', 'PowerShell', 'Ollama Ready'],
+      desc: 'Windows folder organizer, C: cache cleaner, multi-repo sync radar, Win+R launcher & Valorant-safe AI hotkeys.',
+      tags: ['Win+R CLI', 'Ollama Ready', 'AHKv2'],
       liveUrl: 'https://github.com/KrishnaGupta-coder/AutoPilot-Kit',
       repoUrl: 'https://github.com/KrishnaGupta-coder/AutoPilot-Kit',
       isRepoOnly: true
