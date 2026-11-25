@@ -43,7 +43,7 @@
       title: 'TokenBudget AI',
       emoji: '💰',
       category: 'llm',
-      desc: 'BPE token visualizer, 13-model pricing matrix (Gemini 3.8, Claude 4.6 Thinking, GPT-OSS, DeepSeek R1) & compressor.',
+      desc: 'BPE token visualizer, 24-model pricing matrix (GPT-6, Claude 5.5, Gemini 4, DeepSeek V4, Qwen 3.8) with output/cache costing & compressor.',
       tags: ['BPE Tokenizer', 'Cost Matrix', 'Compressor'],
       liveUrl: 'https://krishnagupta-coder.github.io/TokenBudget-AI/',
       repoUrl: 'https://github.com/KrishnaGupta-coder/TokenBudget-AI'
@@ -216,7 +216,7 @@
       case 'ollama':
         return { endpoint: 'http://localhost:11434/api/chat', model: 'qwen2.5:3b' };
       case 'gemini':
-        return { endpoint: 'https://generativelanguage.googleapis.com/v1beta/models', model: 'gemini-2.5-flash' };
+        return { endpoint: 'https://generativelanguage.googleapis.com/v1beta/models', model: 'gemini-4-hydrogen' };
       case 'groq':
         return { endpoint: 'https://api.groq.com/openai/v1/chat/completions', model: 'llama-3.3-70b-versatile' };
       case 'openai':
